@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flowto || Responsive HTML 5 Template</title>
+
+  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <!--- End favicon-->
+
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- End google font  -->
+
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/magnific-popup.css">
+  <link rel="stylesheet" href="assets/css/slick.css">
+  <link rel="stylesheet" href="assets/css/animate.css">
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
+
+
+  <!-- Code Editor  -->
+
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/app.min.css">
+</head>
+
+<body id="body" class="light-mode">
+
+  <div class="flowto-preloader-wrap">
+    <div class="flowto-preloader">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+
+
+
+  <!-- <div class="flowto-sidemenu-wraper">
+      <div class="flowto-sidemenu-column">
+        <div class="flowto-sidemenu-item">
+          <p>languages support</p>
+          <button class="value-change-btn" id="flowto-ltr-rtl" type="button"><span>ltl</span><span>rtl</span></button>
+          <div class="flowto-open-close-btn">
+            <div class="flowto-rtl-open">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13.3473 3.83574C14.0225 1.05475 17.9775 1.05475 18.6527 3.83574C19.0888 5.63222 21.147 6.48476 22.7257 5.52285C25.1696 4.03378 27.9662 6.83045 26.4772 9.27429C25.5152 10.853 26.3678 12.9112 28.1643 13.3473C30.9452 14.0225 30.9452 17.9775 28.1643 18.6527C26.3678 19.0888 25.5152 21.147 26.4772 22.7257C27.9662 25.1696 25.1696 27.9662 22.7257 26.4772C21.147 25.5152 19.0888 26.3678 18.6527 28.1643C17.9775 30.9452 14.0225 30.9452 13.3473 28.1643C12.9112 26.3678 10.853 25.5152 9.2743 26.4772C6.83045 27.9662 4.03379 25.1696 5.52285 22.7257C6.48476 21.147 5.63222 19.0888 3.83574 18.6527C1.05475 17.9775 1.05475 14.0225 3.83574 13.3473C5.63222 12.9112 6.48476 10.853 5.52285 9.27429C4.03378 6.83045 6.83045 4.03378 9.27429 5.52284C10.853 6.48476 12.9112 5.63222 13.3473 3.83574Z" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M20.75 16C20.75 18.6234 18.6234 20.75 16 20.75C13.3766 20.75 11.25 18.6234 11.25 16C11.25 13.3766 13.3766 11.25 16 11.25C18.6234 11.25 20.75 13.3766 20.75 16Z" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <span class="flowto-sidemenu-close">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M6 18L18 6M6 6L18 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+            </span>
+          </div>
+        </div>
+
+        <div class="flowto-sidemenu-item">
+          <p>cursor</p>
+          <div class="flowto-cursor-btn">
+            <button class="value-change-btn remove active-bg" type="button"><span>Normal</span></button>
+            <button class="value-change-btn add active-bg" type="button"><span>advanced</span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cursor"></div>
+    <div class="cursor2"></div> -->
+
+
+
+
+
+  <header class="site-header site-header--menu-center flowto-header-section header-white sticky-one" id="sticky-menu">
+    <div class="container">
+      <nav class="navbar site-navbar">
+        <!-- Brand Logo-->
+        <div class="brand-logo">
+          <a href="index.html">
+            <img src="assets/images/logo/logo-white.svg" alt="" class="light-version-logo">
+          </a>
+        </div>
+        <div class="menu-block-wrapper">
+          <div class="menu-overlay"></div>
+          <nav class="menu-block" id="append-menu-header">
+            <div class="mobile-menu-head">
+              <div class="go-back">
+                <i class="fa fa-angle-left"></i>
+              </div>
+              <div class="current-menu-title"></div>
+              <div class="mobile-menu-close">&times;</div>
+            </div>
+            <ul class="site-menu-main">
+              <li class="nav-item nav-item-has-children">
+                <a href="#" class="nav-link-item drop-trigger">Demo <i class="fas fa-angle-down"></i></a>
+                <ul class="sub-menu" id="submenu-1">
+                  <li class="sub-menu--item">
+                    <a href="index.html">
+                      <span class="menu-item-text">Finance App</span>
+                    </a>
+                  </li>
+                  <li class="sub-menu--item">
+                    <a href="index-02.html">
+                      <span class="menu-item-text">CRM Platform</span>
+                    </a>
+                  </li>
+                  <li class="sub-menu--item">
+                    <a href="index-03.html">
+                      <span class="menu-item-text">SaaS Startups</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="about-us.html" class="nav-link-item">About Us</a>
+              </li>
+              <li class="nav-item nav-item-has-children">
+                <a href="#" class="nav-link-item drop-trigger">Pages <i class="fas fa-angle-down"></i></a>
+                <ul class="sub-menu" id="submenu-2">
+                  <li class="sub-menu--item">
+                    <a href="about-us.html">
+                      <span class="menu-item-text">About Us</span>
+                    </a>
+                  </li>
+                  <li class="sub-menu--item">
+                    <a href="pricing.html">
+                      <span class="menu-item-text">Pricing</span>
+                    </a>
+                  </li>
+                  <li class="sub-menu--item nav-item-has-children">
+                    <a href="#" data-menu-get="h3" class="drop-trigger">blog <i class="fas fa-angle-down"></i></a>
+                    <ul class="sub-menu shape-none" id="submenu-3">
+                      <li class="sub-menu--item">
+                        <a href="blog.html">
+                          <span class="menu-item-text">Our Blog</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="blog-column-one.html">
+                          <span class="menu-item-text">blog column one</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="blog-column-two.html">
+                          <span class="menu-item-text">blog column two</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="single-blog.html">
+                          <span class="menu-item-text">blog details</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sub-menu--item nav-item-has-children">
+                    <a href="#" data-menu-get="h3" class="drop-trigger">Service<i class="fas fa-angle-down"></i>
+                    </a>
+                    <ul class="sub-menu shape-none" id="submenu-4">
+                      <li class="sub-menu--item">
+                        <a href="service.html">
+                          <span class="menu-item-text">service</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="single-service.html">
+                          <span class="menu-item-text">service details</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sub-menu--item nav-item-has-children">
+                    <a href="#" data-menu-get="h3" class="drop-trigger">Team<i class="fas fa-angle-down"></i>
+                    </a>
+                    <ul class="sub-menu shape-none" id="submenu-5">
+                      <li class="sub-menu--item">
+                        <a href="team.html">
+                          <span class="menu-item-text">team</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="single-team.html">
+                          <span class="menu-item-text">team details</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sub-menu--item nav-item-has-children">
+                    <a href="#" data-menu-get="h3" class="drop-trigger">Career<i class="fas fa-angle-down"></i>
+                    </a>
+                    <ul class="sub-menu shape-none" id="submenu-6">
+                      <li class="sub-menu--item">
+                        <a href="career.html">
+                          <span class="menu-item-text">Career</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="single-career.html">
+                          <span class="menu-item-text">Career details</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sub-menu--item nav-item-has-children">
+                    <a href="#" data-menu-get="h3" class="drop-trigger">Portfolio<i class="fas fa-angle-down"></i>
+                    </a>
+                    <ul class="sub-menu shape-none" id="submenu-7">
+                      <li class="sub-menu--item">
+                        <a href="portfolio-grid.html">
+                          <span class="menu-item-text">portfolio gird</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="portfolio-classic.html">
+                          <span class="menu-item-text">portfolio classic</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="single-portfolio.html">
+                          <span class="menu-item-text">Single Portfolio</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sub-menu--item nav-item-has-children">
+                    <a href="#" data-menu-get="h3" class="drop-trigger">Utility<i class="fas fa-angle-down"></i>
+                    </a>
+                    <ul class="sub-menu shape-none" id="submenu-8">
+                      <li class="sub-menu--item">
+                        <a href="faq.html">
+                          <span class="menu-item-text">faq</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="errors-404.html">
+                          <span class="menu-item-text">Error 404</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="integrations.html">
+                          <span class="menu-item-text">integrations</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="testimonials.html">
+                          <span class="menu-item-text">testimonials</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="coming-soon.html">
+                          <span class="menu-item-text">Coming Soon</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sub-menu--item nav-item-has-children">
+                    <a href="#" data-menu-get="h3" class="drop-trigger">Account<i class="fas fa-angle-down"></i>
+                    </a>
+                    <ul class="sub-menu shape-none" id="submenu-9">
+                      <li class="sub-menu--item">
+                        <a href="sign-up.html">
+                          <span class="menu-item-text">sign up</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="sign-in.html">
+                          <span class="menu-item-text">sign in</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="reset-password.html">
+                          <span class="menu-item-text">reset password</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item nav-item-has-children">
+                <a href="#" class="nav-link-item drop-trigger">Blog <i class="fas fa-angle-down"></i></a>
+                <ul class="sub-menu" id="submenu-10">
+                  <li class="sub-menu--item">
+                    <a href="blog.html">
+                      <span class="menu-item-text">Our Blog</span>
+                    </a>
+                  </li>
+                  <li class="sub-menu--item">
+                    <a href="blog-column-one.html">
+                      <span class="menu-item-text">blog column one</span>
+                    </a>
+                  </li>
+                  <li class="sub-menu--item">
+                    <a href="blog-column-two.html">
+                      <span class="menu-item-text">blog column two</span>
+                    </a>
+                  </li>
+                  <li class="sub-menu--item">
+                    <a href="single-blog.html">
+                      <span class="menu-item-text">blog details</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="contact-us.html" class="nav-link-item">Contact Us</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="header-btn header-btn-l1 ms-auto d-none d-xs-inline-flex">
+          <div class="flowto-header-btn-wrap">
+            <a class="flowto-login-btn header-white" href="sign-up.html">Login</a>
+            <a class="flowto-default-btn flowto-header-btn header-white" href="contact-us.html">
+              <span>Get Started</span>
+            </a>
+          </div>
+
+        </div>
+        <!-- mobile menu trigger -->
+        <div class="mobile-menu-trigger light">
+          <span></span>
+        </div>
+        <!--/.Mobile Menu Hamburger Ends-->
+      </nav>
+    </div>
+  </header>
+  <!--End landex-header-section -->
+
+  <div class="flowto-hero-section" style="background-image: url(assets/images/v1/hero-bg.png)">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7">
+          <div class="flowto-hero-content light small-wrap">
+            <h1>All-in-one banking app</h1>
+            <p>Nowadays the simplest and most popular online banking solution for that saves time by speeding up your banking work apart from and also this you can do banking anytime, anywhere.</p>
+            <a class="flowto-default-btn white-btn" href="contact-us.html"> <span>Start Free Trial</span> </a>
+            <div class="flowto-brand-slider1 brand-slider1">
+              <div class="flowto-brand-item">
+                <img src="assets/images/v1/h-logo1.png" alt="">
+              </div>
+              <div class="flowto-brand-item">
+                <img src="assets/images/v1/h-logo2.png" alt="">
+              </div>
+              <div class="flowto-brand-item">
+                <img src="assets/images/v1/h-logo3.png" alt="">
+              </div>
+              <div class="flowto-brand-item">
+                <img src="assets/images/v1/h-logo1.png" alt="">
+              </div>
+              <div class="flowto-brand-item">
+                <img src="assets/images/v1/h-logo2.png" alt="">
+              </div>
+              <div class="flowto-brand-item">
+                <img src="assets/images/v1/h-logo3.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 offset-lg-1">
+          <div class="flowto-hero-thumb">
+            <img src="assets/images/v1/hero-thumb.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End section -->
+
+  <div class="section flowto-section-padding">
+    <div class="flowto-section-title center">
+      <h3>Expressing trust through numbers</h3>
+    </div>
+    <div id="flowto-counter"></div>
+    <div class="container">
+      <div class="flowto-counter-wrap">
+        <div class="flowto-counter-data">
+          <h2 class="flowto-counter-number"><span data-percentage="120" class="flowto-counter"></span>M</h2>
+          <p>Users Worldwide</p>
+        </div>
+        <div class="flowto-counter-data">
+          <h2 class="flowto-counter-number"><span data-percentage="0" class="flowto-counter"></span>%</h2>
+          <p>Transaction Fees</p>
+        </div>
+        <div class="flowto-counter-data">
+          <h2 class="flowto-counter-number"><span data-percentage="4.8" class="flowto-counter"></span>/5</h2>
+          <p>Download Rating</p>
+        </div>
+        <div class="flowto-counter-data">
+          <h2 class="flowto-counter-number"><span data-percentage="8" class="flowto-counter"></span>X</h2>
+          <p>Faster Transaction</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End section -->
+
+
+  <div class="section flowto-section-padding5 white-bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5">
+          <div class="flowto-thumb boxshadow">
+            <img src="assets/images/v1/thumb1.png" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 offset-lg-1 d-flex align-items-center">
+          <div class="flowto-default-content">
+            <h2>Control the flow of money easily</h2>
+            <p>The process of cash flow planning, tracking, and controlling the movement of cash out of the business through this app easily. </p>
+            <p>This includes forecasting future cash needs and ensuring that sufficient funds are available to meet these needs, as well as managing any excess cash in a way that maximizes its value.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End section -->
+
+  <div class="section flowto-section-padding2 light-bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 order-lg-2">
+          <div class="flowto-thumb">
+            <img src="assets/images/v1/thumb2.png" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 d-flex align-items-center">
+          <div class="flowto-default-content m-right">
+            <h2>Save & transfer money quickly</h2>
+            <p>This app can help you avoid the long wait times & high fees associated with traditional international money transfers.</p>
+            <div class="flowto-divider divider-margin"></div>
+            <div class="flowto-iconlist">
+              <ul>
+                <li><img src="assets/images/svg/check-green.svg" alt="">Unlimited amount of the money transaction</li>
+                <li><img src="assets/images/svg/check-green.svg" alt="">Manage, filter and share your earnings</li>
+                <li><img src="assets/images/svg/check-green.svg" alt="">Control your spending from your smartphone</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End section -->
+
+  <div class="section flowto-section-padding3">
+    <div class="container">
+      <div class="flowto-section-title center">
+        <h2>All the necessary features of banking</h2>
+        <p>This banking mobile app generally provides various features that help customers manage their accounts. And also offer advanced features.</p>
+      </div>
+      <div class="row">
+        <div class="col-xl-4 col-md-6">
+          <div class="flowto-iconbox-wrap wrap2 m-0">
+            <div class="flowto-iconbox-icon">
+              <img src="assets/images/v8/icon-v8-1.svg" alt="">
+            </div>
+            <div class="flowto-iconbox-data">
+              <h5>1. Ease of use</h5>
+              <p>The number one requirement when you choosing help desk software is its ease of use and Its good UX will help you.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-6">
+          <div class="flowto-iconbox-wrap wrap2 m-0">
+            <div class="flowto-iconbox-icon">
+              <img src="assets/images/v8/icon-v8-2.svg" alt="">
+            </div>
+            <div class="flowto-iconbox-data">
+              <h5>2. Ticket automation</h5>
+              <p>AI assistants can help agent categorize incidents, better identify major issues, & adjust based on your help desk.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-6 offset-lg-0 offset-md-3">
+          <div class="flowto-iconbox-wrap wrap2 m-0">
+            <div class="flowto-iconbox-icon">
+              <img src="assets/images/v8/icon-v8-3.svg" alt="">
+            </div>
+            <div class="flowto-iconbox-data">
+              <h5>3. Workflow automation</h5>
+              <p>Ticketing workflows will allow you to create predefined sequences for any repeatable process onboarding.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flowto-divider defarent-color"></div>
+      <div class="row">
+        <div class="col-xl-4 col-md-6">
+          <div class="flowto-iconbox-wrap wrap2 m-0">
+            <div class="flowto-iconbox-icon">
+              <img src="assets/images/v8/icon-v8-4.svg" alt="">
+            </div>
+            <div class="flowto-iconbox-data">
+              <h5>4. Reporting and analytics</h5>
+              <p>Another relevant our help desk software feature is reporting. Being able to have trustable analytics, & customizable.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-6">
+          <div class="flowto-iconbox-wrap wrap2 m-0">
+            <div class="flowto-iconbox-icon">
+              <img src="assets/images/v8/icon-v8-5.svg" alt="">
+            </div>
+            <div class="flowto-iconbox-data">
+              <h5>5. Self-service capabilities</h5>
+              <p>Self-service capabilities constitute level zero of IT support. They an exist to offer your users 24/7 basic free help.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-6 offset-lg-0 offset-md-3">
+          <div class="flowto-iconbox-wrap wrap2 m-0">
+            <div class="flowto-iconbox-icon">
+              <img src="assets/images/v8/icon-v8-6.svg" alt="">
+            </div>
+            <div class="flowto-iconbox-data">
+              <h5>6. Service level management</h5>
+              <p>Our help desk has ticketing system with service-level management capabilities can route a ticket to the right agent.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Section -->
+
+  <div class="scetion flowto-section-padding2 light-bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="flowto-thumb">
+            <img src="assets/images/v1/thumb3.png" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 offset-lg-2">
+          <div class="flowto-default-content">
+            <h2>Simple interface for better use</h2>
+            <p>You can easily download the app on your mobile & open a bank account in your name with the required information.</p>
+            <div class="flowto-divider divider-margin"></div>
+
+          </div>
+          <div class="flowto-accordion-wrap" id="flowto-accordion">
+            <div class="flowto-accordion-item open p-left">
+              <div class="flowto-accordion-header">
+                <h6>Download from Play Store on any device</h6>
+                <div class="flowto-active-icon">
+                  <img src="assets/images/svg/arrow-bottom.svg" alt="">
+                </div>
+              </div>
+              <div class="flowto-accordion-body extra-max-width">
+                <p>You can easily download the this app from the App Store or Google Play on any device </p>
+              </div>
+              <div class="flowto-faq-check">
+                <img src="assets/images/svg/check-green.svg" alt="">
+              </div>
+            </div>
+
+            <div class="flowto-accordion-item p-left">
+              <div class="flowto-accordion-header">
+                <h6>Create an account with the required information</h6>
+                <div class="flowto-active-icon">
+                  <img src="assets/images/svg/arrow-bottom.svg" alt="">
+                </div>
+              </div>
+              <div class="flowto-accordion-body extra-max-width">
+                <p>Open a secure account for yourself with your name and the necessary information that need </p>
+              </div>
+              <div class="flowto-faq-check">
+                <img src="assets/images/svg/check-green.svg" alt="">
+              </div>
+            </div>
+
+            <div class="flowto-accordion-item p-left">
+              <div class="flowto-accordion-header">
+                <h6>Experience the best banking services anytime</h6>
+                <div class="flowto-active-icon">
+                  <img src="assets/images/svg/arrow-bottom.svg" alt="">
+                </div>
+              </div>
+              <div class="flowto-accordion-body extra-max-width">
+                <p>Mobile banking allows consumers to be able to access banking services from anywhere. </p>
+              </div>
+              <div class="flowto-faq-check">
+                <img src="assets/images/svg/check-green.svg" alt="">
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End section -->
+
+  <div class="section flowto-section-padding2 light-bg">
+    <div class="container">
+      <div class="flowto-section-title center">
+        <h2>We've earned a 4.8-star Trustpilot rating</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="flowto-testimonial-wrap">
+            <div class="flowto-testimonial-rating">
+              <ul>
+                <li><img src="assets/images/icon/star-green.svg" alt=""></li>
+                <li><img src="assets/images/icon/star-green.svg" alt=""></li>
+                <li><img src="assets/images/icon/star-green.svg" alt=""></li>
+                <li><img src="assets/images/icon/star-green.svg" alt=""></li>
+                <li><img src="assets/images/icon/star-green.svg" alt=""></li>
+              </ul>
+            </div>
+            <div class="flowto-testimonial-data">
+              <h3>Best finance budgeting app ever!</h3>
+              <p>"This finance app has been a game-changer for me! It's made budgeting and tracking my expenses so much easier. I love how intuitive and user-friendly it is."</p>
+            </div>
+            <div class="flowto-testimonial-author">
+              <div class="flowto-testimonial-author-thumb">
+                <img src="assets/images/v1/t_user1.png" alt="">
+              </div>
+              <div class="flowto-testimonial-author-data">
+                <span>Jonas Aly</span>
+                <p>Founder @ Company</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="flowto-testimonial-wrap">
+            <div class="flowto-testimonial-rating">
+              <ul>
+                <li><img src="assets/images/icon/star-green.svg" alt=""></li>
+                <li><img src="assets/images/icon/star-green.svg" alt=""></li>
+                <li><img src="assets/images/icon/star-green.svg" alt=""></li>
+                <li><img src="assets/images/icon/star-green.svg" alt=""></li>
+                <li><img src="assets/images/icon/star-green.svg" alt=""></li>
+              </ul>
+            </div>
+            <div class="flowto-testimonial-data">
+              <h3>Super helpful to watch my spend</h3>
+              <p>"I can't thank this app enough for helping me stay on top of my bills. The bill payment reminders have saved me from late fees, & more organized with my finances."</p>
+            </div>
+            <div class="flowto-testimonial-author">
+              <div class="flowto-testimonial-author-thumb">
+                <img src="assets/images/v1/t_user2.png" alt="">
+              </div>
+              <div class="flowto-testimonial-author-data">
+                <span>Mark Bures</span>
+                <p>Businessman</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="flowto-testimonial-wrap">
+            <div class="flowto-testimonial-rating">
+              <ul>
+                <li><img src="assets/images/icon/star-green.svg" alt=""></li>
+                <li><img src="assets/images/icon/star-green.svg" alt=""></li>
+                <li><img src="assets/images/icon/star-green.svg" alt=""></li>
+                <li><img src="assets/images/icon/star-green.svg" alt=""></li>
+                <li><img src="assets/images/icon/star-green.svg" alt=""></li>
+              </ul>
+            </div>
+            <div class="flowto-testimonial-data">
+              <h3>Great app that saves money</h3>
+              <p>"The app's integration with my bank accounts is seamless. I can easily check my balances and transactions without having to log in separately."</p>
+            </div>
+            <div class="flowto-testimonial-author">
+              <div class="flowto-testimonial-author-thumb">
+                <img src="assets/images/v1/t_user3.png" alt="">
+              </div>
+              <div class="flowto-testimonial-author-data">
+                <span>William Kolas</span>
+                <p>Student</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="flowto-testimonial-wrap">
+            <div class="flowto-testimonial-rating">
+              <ul>
+                <li><img src="assets/images/icon/star-green.svg" alt=""></li>
+                <li><img src="assets/images/icon/star-green.svg" alt=""></li>
+                <li><img src="assets/images/icon/star-green.svg" alt=""></li>
+                <li><img src="assets/images/icon/star-green.svg" alt=""></li>
+                <li><img src="assets/images/icon/star-green.svg" alt=""></li>
+              </ul>
+            </div>
+            <div class="flowto-testimonial-data">
+              <h3>Seriously life changing app!</h3>
+              <p>"The financial insights and reports have been eye-opening. I now have a better understanding of my spending habit and can make adjustment to save more."</p>
+            </div>
+            <div class="flowto-testimonial-author">
+              <div class="flowto-testimonial-author-thumb">
+                <img src="assets/images/v1/t_user4.png" alt="">
+              </div>
+              <div class="flowto-testimonial-author-data">
+                <span>Andrew Chan</span>
+                <p>Manager@ AB Company</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flowto-testimonial-btn">
+        <a class="flowto-default-btn" href="testimonials.html">
+          <span>View All Reviews</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- End Section -->
+
+  <div class="section flowto-section-padding3 white-bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="flowto-section-title">
+            <h2>Browse our latest news and articles</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-4 col-lg-6">
+          <div class="flowto-blog-wrap">
+            <a href="">
+              <div class="flowto-blog-thumb">
+                <img src="assets/images/blog/blog1.png" alt="">
+                <div class="flowto-blog-categorie">
+                  Business
+                </div>
+              </div>
+            </a>
+            <div class="flowto-blog-data">
+              <p>June 18, 2024</p>
+              <a href="">
+                <h3>What is a good solution for finance apps?</h3>
+              </a>
+              <a class="flowto-blog-btn" href="">
+                <svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M15.5 2.25L24.25 11M24.25 11L15.5 19.75M24.25 11L1.75 11" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </a>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-6">
+          <div class="flowto-blog-wrap">
+            <a href="">
+              <div class="flowto-blog-thumb">
+                <img src="assets/images/blog/blog2.png" alt="">
+                <div class="flowto-blog-categorie">
+                  Technology
+                </div>
+              </div>
+            </a>
+            <div class="flowto-blog-data">
+              <p>June 18, 2024</p>
+              <a href="">
+                <h3>What makes banking app development ideal?</h3>
+              </a>
+              <a class="flowto-blog-btn" href="">
+                <svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M15.5 2.25L24.25 11M24.25 11L15.5 19.75M24.25 11L1.75 11" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-6">
+          <div class="flowto-blog-wrap">
+            <a href="">
+              <div class="flowto-blog-thumb">
+                <img src="assets/images/blog/blog3.png" alt="">
+                <div class="flowto-blog-categorie">
+                  Management
+                </div>
+              </div>
+            </a>
+            <div class="flowto-blog-data">
+              <p>June 18, 2024</p>
+              <a href="">
+                <h3>Finance apps that will help you make money!</h3>
+              </a>
+              <a class="flowto-blog-btn" href="">
+                <svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M15.5 2.25L24.25 11M24.25 11L15.5 19.75M24.25 11L1.75 11" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Section -->
+
+  <div class="flowto-cta-section blue-bg ">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7 order-lg-2 d-flex align-items-center">
+          <div class="flowto-default-content light">
+            <h2>Start managing your money now!</h2>
+            <p>Your financial future is just a download away. Get our app and experience the benefits of better money management.</p>
+            <div class="flowto-extra-mt">
+              <div class="flowto-two-wrap">
+                <a class="flowto-app" href="contact-us.html"><img src="assets/images/v1/play-store.png" alt=""></a>
+                <a class="flowto-app" href="contact-us.html"><img src="assets/images/v1/app-store.png" alt=""></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="flowto-cta-thumb">
+            <img src="assets/images/v1/cta-mocup.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End section -->
+
+
+
+
+
+  <footer class="flowto-footer-section dark-bg flowto-section-padding6" style="background-image: url(assets/images/v9/footer-bg.png);">
+    <div class="container">
+      <div class="flowto-section-title center light p-0">
+        <h2>Start managing your project with us</h2>
+        <p>This project management software that lets you focus on the leading, not micromanaging, and saves up to 50% of management and planning time.</p>
+        <div class="flowto-extra-mt">
+          <a class="flowto-default-btn pill" href=""><span>Get Started – It’s Free to Try</span></a>
+        </div>
+
+      </div>
+      <div class="flowto-footer-top">
+        <div class="row">
+          <div class="col-lg-3 col-md-2">
+            <div class="flowto-footer-menu light">
+              <div class="flowto-footer-title light">
+                <p>Company</p>
+              </div>
+              <ul>
+                <li><a href="">Demos</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Pages</a></li>
+                <li><a href="">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3">
+            <div class="flowto-footer-menu light">
+              <div class="flowto-footer-title light">
+                <p>Utility pages</p>
+              </div>
+              <ul>
+                <li><a href="">Instructions</a></li>
+                <li><a href="">Style guide</a></li>
+                <li><a href="">Licenses</a></li>
+                <li><a href="">404 Not found</a></li>
+                <li><a href="">Password protected</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3">
+            <div class="flowto-footer-menu light">
+              <div class="flowto-footer-title light">
+                <p>Navigation</p>
+              </div>
+              <ul>
+                <li><a href="">QuickBooks</a></li>
+                <li><a href="">Zapier</a></li>
+                <li><a href="">API Documentation</a></li>
+                <li><a href="">Slack</a></li>
+                <li><a href="">Google Calendar</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="flowto-footer-menu light">
+              <div class="flowto-footer-title light">
+                <p>Resources</p>
+              </div>
+              <ul>
+                <li><a href="">Support</a></li>
+                <li><a href="">Privacy policy</a></li>
+                <li><a href="">Terms & Conditions</a></li>
+                <li><a href="">Strategic finance</a></li>
+                <li><a href="">Video guide</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flowto-footer-bottom light footer-nine">
+        <a href="">
+          <img src="assets/images/logo/logo-white.svg" alt="">
+        </a>
+        <div class="flowto-copywright light footer-nine">
+          <p> &copy;Copyright 2024, All Rights Reserved by Mthemeus</p>
+        </div>
+        <div class="flowto-two-wrap">
+          <a class="flowto-app" href="contact-us.html"><img src="assets/images/v1/play-store.png" alt=""></a>
+          <a class="flowto-app" href="contact-us.html"><img src="assets/images/v1/app-store.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End -->
+
+
+
+
+
+  <!-- scripts -->
+  <script src="assets/js/jquery-3.6.0.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/menu/menu.js"></script>
+  <script src="assets/js/isotope.pkgd.min.js"></script>
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="assets/js/slick.js"></script>
+  <script src="assets/js/countdown.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/faq.js"></script>
+  <!-- <script src="assets/js/advanced-cursor.js"></script> -->
+  <!-- <script src="assets/js/dark.js"></script> -->
+
+  <script src="assets/js/app.js"></script>
+
+
+</body>
+</html>
