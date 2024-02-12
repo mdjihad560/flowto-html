@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flowto || Responsive HTML 5 Template</title>
+
+  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <!--- End favicon-->
+
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- End google font  -->
+
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/magnific-popup.css">
+  <link rel="stylesheet" href="assets/css/slick.css">
+  <link rel="stylesheet" href="assets/css/animate.css">
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
+
+
+  <!-- Code Editor  -->
+
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/app.min.css">
+</head>
+
+<body id="body" class="light-mode">
+
+  <div class="flowto-preloader-wrap">
+    <div class="flowto-preloader">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+
+
+
+  <!-- <div class="flowto-sidemenu-wraper">
+      <div class="flowto-sidemenu-column">
+        <div class="flowto-sidemenu-item">
+          <p>languages support</p>
+          <button class="value-change-btn" id="flowto-ltr-rtl" type="button"><span>ltl</span><span>rtl</span></button>
+          <div class="flowto-open-close-btn">
+            <div class="flowto-rtl-open">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13.3473 3.83574C14.0225 1.05475 17.9775 1.05475 18.6527 3.83574C19.0888 5.63222 21.147 6.48476 22.7257 5.52285C25.1696 4.03378 27.9662 6.83045 26.4772 9.27429C25.5152 10.853 26.3678 12.9112 28.1643 13.3473C30.9452 14.0225 30.9452 17.9775 28.1643 18.6527C26.3678 19.0888 25.5152 21.147 26.4772 22.7257C27.9662 25.1696 25.1696 27.9662 22.7257 26.4772C21.147 25.5152 19.0888 26.3678 18.6527 28.1643C17.9775 30.9452 14.0225 30.9452 13.3473 28.1643C12.9112 26.3678 10.853 25.5152 9.2743 26.4772C6.83045 27.9662 4.03379 25.1696 5.52285 22.7257C6.48476 21.147 5.63222 19.0888 3.83574 18.6527C1.05475 17.9775 1.05475 14.0225 3.83574 13.3473C5.63222 12.9112 6.48476 10.853 5.52285 9.27429C4.03378 6.83045 6.83045 4.03378 9.27429 5.52284C10.853 6.48476 12.9112 5.63222 13.3473 3.83574Z" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M20.75 16C20.75 18.6234 18.6234 20.75 16 20.75C13.3766 20.75 11.25 18.6234 11.25 16C11.25 13.3766 13.3766 11.25 16 11.25C18.6234 11.25 20.75 13.3766 20.75 16Z" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <span class="flowto-sidemenu-close">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M6 18L18 6M6 6L18 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+            </span>
+          </div>
+        </div>
+
+        <div class="flowto-sidemenu-item">
+          <p>cursor</p>
+          <div class="flowto-cursor-btn">
+            <button class="value-change-btn remove active-bg" type="button"><span>Normal</span></button>
+            <button class="value-change-btn add active-bg" type="button"><span>advanced</span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cursor"></div>
+    <div class="cursor2"></div> -->
+
+
+
+
+
+  <header class="site-header site-header--menu-right flowto-header-section header-white sticky-two" id="sticky-menu">
+    <div class="container">
+      <nav class="navbar site-navbar">
+        <!-- Brand Logo-->
+        <div class="brand-logo">
+          <a href="index.html">
+            <img src="assets/images/logo/logo-white.svg" alt="" class="light-version-logo">
+          </a>
+        </div>
+        <div class="menu-block-wrapper">
+          <div class="menu-overlay"></div>
+          <nav class="menu-block" id="append-menu-header">
+            <div class="mobile-menu-head">
+              <div class="go-back">
+                <i class="fa fa-angle-left"></i>
+              </div>
+              <div class="current-menu-title"></div>
+              <div class="mobile-menu-close">&times;</div>
+            </div>
+            <ul class="site-menu-main">
+              <li class="nav-item nav-item-has-children">
+                <a href="#" class="nav-link-item drop-trigger">Demo <i class="fas fa-angle-down"></i></a>
+                <ul class="sub-menu" id="submenu-1">
+                  <li class="sub-menu--item">
+                    <a href="index.html">
+                      <span class="menu-item-text">Mobile banking</span>
+                    </a>
+                  </li>
+                  <li class="sub-menu--item">
+                    <a href="index-02.html">
+                      <span class="menu-item-text">Sale management software</span>
+                    </a>
+                  </li>
+                  <li class="sub-menu--item">
+                    <a href="index-03.html">
+                      <span class="menu-item-text">Digital Agency</span>
+                    </a>
+                  </li>
+                  <li class="sub-menu--item">
+                    <a href="index-04.html">
+                      <span class="menu-item-text">Time Management</span>
+                    </a>
+                  </li>
+                  <li class="sub-menu--item">
+                    <a href="index-05.html">
+                      <span class="menu-item-text">SEO Agency</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="about-us.html" class="nav-link-item">About Us</a>
+              </li>
+              <li class="nav-item nav-item-has-children">
+                <a href="#" class="nav-link-item drop-trigger">Pages <i class="fas fa-angle-down"></i></a>
+                <ul class="sub-menu" id="submenu-2">
+                  <li class="sub-menu--item">
+                    <a href="about-us.html">
+                      <span class="menu-item-text">About Us</span>
+                    </a>
+                  </li>
+                  <li class="sub-menu--item">
+                    <a href="pricing.html">
+                      <span class="menu-item-text">Pricing</span>
+                    </a>
+                  </li>
+                  <li class="sub-menu--item nav-item-has-children">
+                    <a href="#" data-menu-get="h3" class="drop-trigger">blog <i class="fas fa-angle-down"></i></a>
+                    <ul class="sub-menu shape-none" id="submenu-3">
+                      <li class="sub-menu--item">
+                        <a href="blog.html">
+                          <span class="menu-item-text">Our Blog</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="single-blog.html">
+                          <span class="menu-item-text">blog details</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sub-menu--item nav-item-has-children">
+                    <a href="#" data-menu-get="h3" class="drop-trigger">Service<i class="fas fa-angle-down"></i>
+                    </a>
+                    <ul class="sub-menu shape-none" id="submenu-4">
+                      <li class="sub-menu--item">
+                        <a href="service.html">
+                          <span class="menu-item-text">service</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="single-service.html">
+                          <span class="menu-item-text">service details</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sub-menu--item nav-item-has-children">
+                    <a href="#" data-menu-get="h3" class="drop-trigger">Team<i class="fas fa-angle-down"></i>
+                    </a>
+                    <ul class="sub-menu shape-none" id="submenu-5">
+                      <li class="sub-menu--item">
+                        <a href="team.html">
+                          <span class="menu-item-text">team</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="single-team.html">
+                          <span class="menu-item-text">team details</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sub-menu--item nav-item-has-children">
+                    <a href="#" data-menu-get="h3" class="drop-trigger">Career<i class="fas fa-angle-down"></i>
+                    </a>
+                    <ul class="sub-menu shape-none" id="submenu-6">
+                      <li class="sub-menu--item">
+                        <a href="career.html">
+                          <span class="menu-item-text">Career</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="single-career.html">
+                          <span class="menu-item-text">Career details</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sub-menu--item nav-item-has-children">
+                    <a href="#" data-menu-get="h3" class="drop-trigger">Portfolio<i class="fas fa-angle-down"></i>
+                    </a>
+                    <ul class="sub-menu shape-none" id="submenu-7">
+                      <li class="sub-menu--item">
+                        <a href="portfolio-grid.html">
+                          <span class="menu-item-text">portfolio gird</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="portfolio-classic.html">
+                          <span class="menu-item-text">portfolio classic</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="single-portfolio.html">
+                          <span class="menu-item-text">Single Portfolio</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sub-menu--item nav-item-has-children">
+                    <a href="#" data-menu-get="h3" class="drop-trigger">Utility<i class="fas fa-angle-down"></i>
+                    </a>
+                    <ul class="sub-menu shape-none" id="submenu-8">
+                      <li class="sub-menu--item">
+                        <a href="faq.html">
+                          <span class="menu-item-text">faq</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="errors-404.html">
+                          <span class="menu-item-text">Error 404</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="integrations.html">
+                          <span class="menu-item-text">integrations</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="testimonials.html">
+                          <span class="menu-item-text">testimonials</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="coming-soon.html">
+                          <span class="menu-item-text">Coming Soon</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sub-menu--item nav-item-has-children">
+                    <a href="#" data-menu-get="h3" class="drop-trigger">Account<i class="fas fa-angle-down"></i>
+                    </a>
+                    <ul class="sub-menu shape-none" id="submenu-9">
+                      <li class="sub-menu--item">
+                        <a href="sign-up.html">
+                          <span class="menu-item-text">sign up</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="sign-in.html">
+                          <span class="menu-item-text">sign in</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="reset-password.html">
+                          <span class="menu-item-text">reset password</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item nav-item-has-children">
+                <a href="#" class="nav-link-item drop-trigger">Blog <i class="fas fa-angle-down"></i></a>
+                <ul class="sub-menu" id="submenu-10">
+                  <li class="sub-menu--item">
+                    <a href="blog.html">
+                      <span class="menu-item-text">Our Blog</span>
+                    </a>
+                  </li>
+                  <li class="sub-menu--item">
+                    <a href="single-blog.html">
+                      <span class="menu-item-text">blog details</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="contact-us.html" class="nav-link-item">Contact Us</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header-btn header-btn-l1 ms-auto d-none d-xs-inline-flex">
+          <div class="flowto-header-btn-wrap">
+            <a class="flowto-login-btn" href="sign-up.html">Login</a>
+            <a class="flowto-default-btn flowto-header-btn pill hover-white" href="contact-us.html">
+              <span>Get Started</span>
+            </a>
+          </div>
+        </div>
+        <!-- mobile menu trigger -->
+        <div class="mobile-menu-trigger light">
+          <span></span>
+        </div>
+        <!--/.Mobile Menu Hamburger Ends-->
+      </nav>
+    </div>
+  </header>
+  <!--End landex-header-section -->
+
+  <div class="flowto-hero-section5 dark-bg" style="background-image: url(assets/images/v5/shapes-hero.png)">
+    <div class="container">
+      <div class="flowto-hero-content center light">
+        <h1>Increase web traffic with <span>SEO experts</span></h1>
+        <p>If you are looking for the best SEO agency for your business, we are the perfect choice. We have over two decades of experience in the SEO industry and know how to help your website rank.</p>
+        <div class="flowto-extra-mt">
+          <div class="flowto-subscribe-three">
+            <form action="#">
+              <input type="email" placeholder="Enter Your Website">
+              <button class="flowto-default-btn flowto-subscription-btn three pill hover-white" id="flowto-subscription-btn" type="submit">
+                <span>Get A Proposal</span>
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="flowto-extra-mt">
+          <div class="flowto-iconlist iconlist-white extra-width">
+            <ul>
+              <li><img src="assets/images/svg/check-green4.svg" alt="">24/7 Support</li>
+              <li><img src="assets/images/svg/check-green4.svg" alt="">Cancel Anytime</li>
+              <li><img src="assets/images/svg/check-green4.svg" alt="">No credit card is required</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End section -->
+
+  <div class="section flowto-section-padding4">
+    <div class="container">
+      <div class="flowto-section-title center">
+        <h6>Trusted by the most innovative companies worldwide</h6>
+      </div>
+      <div class="flowto-brand-slider2">
+        <div class="flowto-brand-item">
+          <img src="assets/images/v3/b_1.png" alt="">
+        </div>
+        <div class="flowto-brand-item">
+          <img src="assets/images/v3/b_2.png" alt="">
+        </div>
+        <div class="flowto-brand-item">
+          <img src="assets/images/v3/b_3.png" alt="">
+        </div>
+        <div class="flowto-brand-item">
+          <img src="assets/images/v3/b_4.png" alt="">
+        </div>
+        <div class="flowto-brand-item">
+          <img src="assets/images/v3/b_5.png" alt="">
+        </div>
+        <div class="flowto-brand-item">
+          <img src="assets/images/v3/b_1.png" alt="">
+        </div>
+        <div class="flowto-brand-item">
+          <img src="assets/images/v3/b_2.png" alt="">
+        </div>
+        <div class="flowto-brand-item">
+          <img src="assets/images/v3/b_3.png" alt="">
+        </div>
+        <div class="flowto-brand-item">
+          <img src="assets/images/v3/b_4.png" alt="">
+        </div>
+        <div class="flowto-brand-item">
+          <img src="assets/images/v3/b_5.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end section -->
+
+  <div class="container">
+    <div class="flowto-divider defarent-color"></div>
+  </div>
+  <!-- End divider -->
+
+  <div class="section flowto-section-padding">
+    <div id="flowto-counter"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5">
+          <div class="flowto-thumb">
+            <img src="assets/images/v5/thumb-v5-1.png" alt="">
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="flowto-default-content m-left-85">
+            <h2>Increase organic traffic to website</h2>
+            <p>SEO is often referred to as a ‘long-term play’ in the marketing world. The benefits of SEO gain momentum the longer you invest. As your website content continues to gain viewers and approach.</p>
+            <p>Yet, with the SEO agency give your chances are more than higher your website gains is organic earned traffic and free of charge. </p>
+            <div class="flowto-extra-mt">
+              <div class="flowto-counter-wrap">
+                <div class="flowto-counter-data">
+                  <h3 class="flowto-counter-number"><span data-percentage="98" class="flowto-counter"></span><em>%</em></h3>
+                  <p>Customer satisfaction</p>
+                </div>
+                <div class="flowto-counter-data">
+                  <h3 class="flowto-counter-number"><span data-percentage="75" class="flowto-counter"></span><em>K</em></h3>
+                  <p>registered attendees</p>
+                </div>
+                <div class="flowto-counter-data">
+                  <h3 class="flowto-counter-number"><span data-percentage="4.1" class="flowto-counter"></span><em>M</em></h3>
+                  <p>social followers</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End section -->
+
+  <div class="section dark-bg flowto-section-padding3">
+    <div class="container">
+      <div class="flowto-section-title center light w-large-xl">
+        <h2>Advanced SEO services to boost your brand</h2>
+        <p>Discovered our customized SEO services & you can double, triple or quadruple your sales & income. Beat your competition with professional SEO services!</p>
+      </div>
+      <div class="row">
+        <div class="col-xl-4 col-md-6">
+          <div class="flowto-iconbox-wrap border-all bg-hover">
+            <div class="flowto-iconbox-icon">
+              <img src="assets/images/v5/icon-v5-1.svg" alt="">
+            </div>
+            <div class="flowto-iconbox-data light">
+              <h5>Expert SEO packages</h5>
+              <p>Most search engine optimization service aim to fill your sales channel with relevant.</p>
+              <a class="flowto-iconbox-btn" href="single-service.html">
+                <img src="assets/images/svg/arrow-right-white.svg" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-6">
+          <div class="flowto-iconbox-wrap border-all bg-hover">
+            <div class="flowto-iconbox-icon">
+              <img src="assets/images/v5/icon-v5-2.svg" alt="">
+            </div>
+            <div class="flowto-iconbox-data light">
+              <h5>Web analytics & consulting</h5>
+              <p>Any business that has a website or online presence must needs good web analytics. </p>
+              <a class="flowto-iconbox-btn" href="single-service.html">
+                <img src="assets/images/svg/arrow-right-white.svg" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-6">
+          <div class="flowto-iconbox-wrap border-all bg-hover">
+            <div class="flowto-iconbox-icon">
+              <img src="assets/images/v5/icon-v5-3.svg" alt="">
+            </div>
+            <div class="flowto-iconbox-data light">
+              <h5>SEO website audit services</h5>
+              <p>Today, no business can survive without a proper SEO strategy, having website audit.</p>
+              <a class="flowto-iconbox-btn" href="single-service.html">
+                <img src="assets/images/svg/arrow-right-white.svg" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-6">
+          <div class="flowto-iconbox-wrap border-all bg-hover">
+            <div class="flowto-iconbox-icon">
+              <img src="assets/images/v5/icon-v5-4.svg" alt="">
+            </div>
+            <div class="flowto-iconbox-data light">
+              <h5>SEO services for startups</h5>
+              <p>We have years of experience pushing new businesses through SEO channels easily.</p>
+              <a class="flowto-iconbox-btn" href="single-service.html">
+                <img src="assets/images/svg/arrow-right-white.svg" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-6">
+          <div class="flowto-iconbox-wrap border-all bg-hover">
+            <div class="flowto-iconbox-icon">
+              <img src="assets/images/v5/icon-v5-5.svg" alt="">
+            </div>
+            <div class="flowto-iconbox-data light">
+              <h5>PPC marketing services</h5>
+              <p>PPC is a method of online advertising. It's done through multiple platforms including.</p>
+              <a class="flowto-iconbox-btn" href="single-service.html">
+                <img src="assets/images/svg/arrow-right-white.svg" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-6">
+          <div class="flowto-iconbox-wrap border-all bg-hover">
+            <div class="flowto-iconbox-icon">
+              <img src="assets/images/v5/icon-v5-6.svg" alt="">
+            </div>
+            <div class="flowto-iconbox-data light">
+              <h5>Digital marketing plan</h5>
+              <p>Improve your presence, and create trust in the eyes of your customers with digitally.</p>
+              <a class="flowto-iconbox-btn" href="single-service.html">
+                <img src="assets/images/svg/arrow-right-white.svg" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End section -->
+
+  <div class="section flowto-section-padding2">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 offset-lg-1 order-lg-2">
+          <div class="flowto-thumb">
+            <img src="assets/images/v5/thumb-v5-2.png" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 d-flex align-items-center">
+          <div class="flowto-default-content">
+            <h2>Generated more revenue & trust</h2>
+            <p>By optimizing your website for search engines, attract more qualified leads, improve conversion rates and increase revenue.</p>
+            <div class="flowto-extra-mt">
+              <div class="flowto-iconlist">
+                <ul>
+                  <li><img src="assets/images/svg/check-black.svg" alt="">Your site will be more visible and accessible</li>
+                  <li><img src="assets/images/svg/check-black.svg" alt="">Optimizing your web pages to improve rankings</li>
+                  <li><img src="assets/images/svg/check-black.svg" alt="">Increase your sales with high-quality SEO services</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End section -->
+
+  <div class="section flowto-section-padding5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5">
+          <div class="flowto-thumb">
+            <img src="assets/images/v5/thumb-v5-3.png" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 offset-lg-1 d-flex align-items-center">
+          <div class="flowto-default-content">
+            <h2>Save time and resources easily</h2>
+            <p>SEO is a complex and time-consuming process that requires a significant amount of resources. Hiring us and we can save you time and resources, allowing you to focus on your business.</p>
+            <p>We have the necessary tools and resources to perform keyword research, analyze website data, and optimize your website.</p>
+            <div class="flowto-extra-mt">
+              <a class="flowto-default-btn" href="contact-us.html"><span>Schedule A Call Today</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End section -->
+
+  <div class="section flowto-section-padding3 light-bg">
+    <div class="container">
+      <div class="flowto-section-title center w-large-xl">
+        <h2>The best SEO package to suit your needs</h2>
+        <p>Our SEO packages are customized for your goals. We definitely don't offer the cheapest services out there, but we do offer the most value for your money.</p>
+      </div>
+      <div class="pricing-btn dark">
+        <label>Billed monthly</label>
+        <div class="toggle-btn">
+          <input class="form-check-input btn-toggle price-deck-trigger" type="checkbox" id="flexSwitchCheckDefault" data-pricing-trigger data-target="#table-price-value" checked>
+        </div>
+        <label>Billed annually</label>
+      </div>
+      <div class="row" id="table-price-value" data-pricing-dynamic data-value-active="monthly">
+        <div class="col-xl-4 col-md-6">
+          <div class="flowto-pricing-wrap">
+            <div class="flowto-pricing-header">
+              <h6>Local SEO</h6>
+            </div>
+            <div class="flowto-pricing-price">
+              <h2>$</h2>
+              <div class="flowto-price dynamic-value" data-active="19.9" data-monthly="19.9" data-yearly="39.9"></div>
+              <p class="dynamic-value" data-active="/Monthly" data-monthly="/Monthly" data-yearly="/ Yearly"></p>
+            </div>
+            <div class="flowto-pricing-description">
+              <p>SEO Package designed for small business with a single niche service provider.</p>
+            </div>
+            <div class="flowto-pricing-body pricing-body2">
+              <p>What's included:</p>
+              <ul>
+                <li><img src="assets/images/svg/check-black.svg" alt="">On-Page Optimization</li>
+                <li><img src="assets/images/svg/check-black.svg" alt="">Google Business Profile</li>
+                <li><img src="assets/images/svg/check-black.svg" alt="">40 Total Keywords</li>
+                <li class="inactive"><img src="assets/images/svg/check-black.svg" alt="">Social Media Marketing</li>
+                <li class="inactive"><img src="assets/images/svg/check-black.svg" alt="">Video Marketing</li>
+                <li class="inactive"><img src="assets/images/svg/check-black.svg" alt="">Retargeting Setup</li>
+                <li class="inactive"><img src="assets/images/svg/check-black.svg" alt="">CTR Performance Optimization</li>
+              </ul>
+            </div>
+            <a class="flowto-pricing-btn outline pill" href="pricing.html">Choose The Plan</a>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-6">
+          <div class="flowto-pricing-wrap position-relative">
+            <div class="flowto-pricing-header">
+              <h6>National SEO</h6>
+            </div>
+            <div class="flowto-pricing-price">
+              <h2>$</h2>
+              <div class="flowto-price dynamic-value" data-active="39.9" data-monthly="39.9" data-yearly="69.9"></div>
+              <p class="dynamic-value" data-active="/Monthly" data-monthly="/Monthly" data-yearly="/ Yearly"></p>
+            </div>
+            <div class="flowto-pricing-description">
+              <p>SEO package designed for moderately competitive business couple of services.</p>
+            </div>
+            <div class="flowto-pricing-body pricing-body2">
+              <p>What's included:</p>
+              <ul>
+                <li><img src="assets/images/svg/check-black.svg" alt="">On-Page Optimization</li>
+                <li><img src="assets/images/svg/check-black.svg" alt="">Google Business Profile</li>
+                <li><img src="assets/images/svg/check-black.svg" alt="">80 Total Keywords</li>
+                <li><img src="assets/images/svg/check-black.svg" alt="">Social Media Marketing</li>
+                <li class="inactive"><img src="assets/images/svg/check-black.svg" alt="">Video Marketing</li>
+                <li class="inactive"><img src="assets/images/svg/check-black.svg" alt="">Retargeting Setup</li>
+                <li class="inactive"><img src="assets/images/svg/check-black.svg" alt="">CTR Performance Optimization</li>
+              </ul>
+            </div>
+            <div class="pricing-badge">
+              Most Popular!
+            </div>
+            <a class="flowto-pricing-btn outline pill active" href="pricing.html">Choose The Plan</a>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-6">
+          <div class="flowto-pricing-wrap">
+            <div class="flowto-pricing-header">
+              <h6>Enterprise</h6>
+            </div>
+            <div class="flowto-pricing-price">
+              <h2>$</h2>
+              <div class="flowto-price dynamic-value" data-active="89.9" data-monthly="89.9" data-yearly="99.9"></div>
+              <p class="dynamic-value" data-active="/Monthly" data-monthly="/Monthly" data-yearly="/ Yearly"></p>
+            </div>
+            <div class="flowto-pricing-description">
+              <p>SEO Package designed for business in a competitive small e-commerce websites.</p>
+            </div>
+            <div class="flowto-pricing-body pricing-body2">
+              <p>What's included:</p>
+              <ul>
+                <li><img src="assets/images/svg/check-black.svg" alt="">On-Page Optimization</li>
+                <li><img src="assets/images/svg/check-black.svg" alt="">Google Business Profile</li>
+                <li><img src="assets/images/svg/check-black.svg" alt="">1000 Total Keywords</li>
+                <li><img src="assets/images/svg/check-black.svg" alt="">Social Media Marketing</li>
+                <li><img src="assets/images/svg/check-black.svg" alt="">Video Marketing</li>
+                <li><img src="assets/images/svg/check-black.svg" alt="">Retargeting Setup</li>
+                <li><img src="assets/images/svg/check-black.svg" alt="">CTR Performance Optimization</li>
+              </ul>
+            </div>
+            <a class="flowto-pricing-btn outline pill" href="pricing.html">Choose The Plan</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Section -->
+
+  <div class="section flowto-section-padding3">
+    <div class="container">
+      <div class="flowto-section-title">
+        <div class="row">
+          <div class="col-lg-7">
+            <h2>Hear what our customers say</h2>
+          </div>
+          <div class="col-lg-5 d-flex align-items-center">
+            <p>We provide excellent customer service. We have loyal customers all over the world. We take pride in working with outcome-focused client businesses.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-6">
+          <div class="flowto-testimonial-wrap testimonial-grid">
+            <div class="flowto-testimonial-thumb">
+              <img src="assets/images/testimonial/t_1.png" alt="">
+            </div>
+            <div class="flowto-testimonial-content">
+              <div class="flowto-testimonial-rating">
+                <ul>
+                  <li><img src="assets/images/svg/rating.svg" alt=""></li>
+                  <li><img src="assets/images/svg/rating.svg" alt=""></li>
+                  <li><img src="assets/images/svg/rating.svg" alt=""></li>
+                  <li><img src="assets/images/svg/rating.svg" alt=""></li>
+                  <li><img src="assets/images/svg/rating.svg" alt=""></li>
+                </ul>
+              </div>
+              <div class="flowto-testimonial-data">
+                <p>Amazing agency! The whole SEO team is knowledgeable, friendly and incredibly helpful. I am very much satisfied with their work.</p>
+                <h6>Alex Bury from Canada</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-6">
+          <div class="flowto-testimonial-wrap testimonial-grid">
+            <div class="flowto-testimonial-thumb">
+              <img src="assets/images/testimonial/t_2.png" alt="">
+            </div>
+            <div class="flowto-testimonial-content">
+              <div class="flowto-testimonial-rating">
+                <ul>
+                  <li><img src="assets/images/svg/rating.svg" alt=""></li>
+                  <li><img src="assets/images/svg/rating.svg" alt=""></li>
+                  <li><img src="assets/images/svg/rating.svg" alt=""></li>
+                  <li><img src="assets/images/svg/rating.svg" alt=""></li>
+                  <li><img src="assets/images/svg/rating.svg" alt=""></li>
+                </ul>
+              </div>
+              <div class="flowto-testimonial-data">
+                <p>I've experienced great support from the SEO team. I'm a few months in and starting to see positive results. I would definitely recommend it!</p>
+                <h6 class="m-0">Max Smith from USA</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End section -->
+
+  <div class="container">
+    <div class="flowto-divider defarent-color"></div>
+  </div>
+  <!-- End divider -->
+
+  <div class="section flowto-section-padding">
+    <div class="container">
+      <div class="flowto-section-title center w-large-xl">
+        <h2>Frequently asked questions about SEO</h2>
+        <p>To some people, SEO sounds like black magic! Actually, it doesn't! What we do for you is to help your audience find the information relevant to their question.</p>
+      </div>
+      <div class="flowto-faq-normal-column">
+        <div class="flowto-faq-normal-wrap">
+          <div class="flowto-faq-normal-item">
+            <div class="flowto-faq-normal-icon">
+              <img src="assets/images/v5/question.png" alt="">
+            </div>
+            <div class="flowto-faq-normal-data">
+              <h4>How long does it take for your SEO services to see results?</h4>
+              <p>Depending on your industry, site age and competition, It can take anywhere from 3 to 8 months to see results.</p>
+            </div>
+          </div>
+          <div class="flowto-faq-normal-item">
+            <div class="flowto-faq-normal-icon">
+              <img src="assets/images/v5/question.png" alt="">
+            </div>
+            <div class="flowto-faq-normal-data">
+              <h4>Does my business need SEO?</h4>
+              <p>Yes, your business should be investing in SEO. Search engine optimization offers a way to increase traffic.</p>
+            </div>
+          </div>
+          <div class="flowto-faq-normal-item">
+            <div class="flowto-faq-normal-icon">
+              <img src="assets/images/v5/question.png" alt="">
+            </div>
+            <div class="flowto-faq-normal-data">
+              <h4>How much does SEO cost?</h4>
+              <p>The cost of SEO services can vary depending on the size and complexity of your website, the amount of required.</p>
+            </div>
+          </div>
+        </div>
+        <div class="flowto-faq-normal-wrap">
+          <div class="flowto-faq-normal-item">
+            <div class="flowto-faq-normal-icon">
+              <img src="assets/images/v5/question.png" alt="">
+            </div>
+            <div class="flowto-faq-normal-data">
+              <h4>Why isn't my website ranking on Google?</h4>
+              <p>If your website isn’t ranking on Google, there are a few reasons why that could be. But first, head to Google.</p>
+            </div>
+          </div>
+          <div class="flowto-faq-normal-item">
+            <div class="flowto-faq-normal-icon">
+              <img src="assets/images/v5/question.png" alt="">
+            </div>
+            <div class="flowto-faq-normal-data">
+              <h4>How can i find the keyword that people are searching for to find business like mine?</h4>
+              <p>You can do this using Google's keyword planner or the flowto keyword magic tool.</p>
+            </div>
+          </div>
+          <div class="flowto-faq-normal-item">
+            <div class="flowto-faq-normal-icon">
+              <img src="assets/images/v5/question.png" alt="">
+            </div>
+            <div class="flowto-faq-normal-data">
+              <h4>Why has my organic traffic dropped?</h4>
+              <p>You need to determine whether your website's organic traffic has dropped suddenly or gradually over time.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- End Section -->
+
+
+  <!-- Footer  -->
+
+  <footer class="flowto-footer-section dark-bg flowto-section-padding6">
+    <div class="container">
+      <div class="flowto-cta-wrap">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="flowto-footer-extra-title">
+              <h2>Want to increase your SEO ranking?</h2>
+            </div>
+          </div>
+          <div class="col-lg-4 d-flex align-items-center">
+            <div class="flowto-footer-btn">
+              <a class="flowto-default-btn pill white-btn" href="contact-us.html"><span>Schedule A Call Today</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flowto-footer-top">
+        <div class="row">
+          <div class="col-xl-4 col-lg-12">
+            <div class="flowto-footer-textarea light">
+              <a href="">
+                <img src="assets/images/logo/logo-white.svg" alt="">
+              </a>
+              <p>We're your innovation partner, delivering cutting-edge solutions that elevate your business to the next level.</p>
+              <div class="flowto-social-icon social-box">
+                <ul>
+                  <li>
+                    <a href="https://twitter.com/" target="_blank">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://facebook.com/" target="_blank">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com/" target="_blank">
+                      <i class="fab fa-linkedin"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/" target="_blank">
+                      <i class="fab fa-github"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-4">
+            <div class="flowto-footer-menu light extar-margin">
+              <div class="flowto-footer-title light">
+                <p>Navigation</p>
+              </div>
+              <ul>
+                <li><a href="">Demos</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Pages</a></li>
+                <li><a href="">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-2 col-md-4">
+            <div class="flowto-footer-menu light">
+              <div class="flowto-footer-title light">
+                <p>Utility pages</p>
+              </div>
+              <ul>
+                <li><a href="">Instructions</a></li>
+                <li><a href="">Style guide</a></li>
+                <li><a href="">Licenses</a></li>
+                <li><a href="">404 Not found</a></li>
+                <li><a href="">Password protected</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-4">
+            <div class="flowto-footer-menu light info extar-margin">
+              <div class="flowto-footer-title light">
+                <p>Contact us</p>
+              </div>
+              <ul>
+                <li><a href=""><img src="assets/images/svg/call.svg" alt="">+088-234-6849</a></li>
+                <li><a href=""><img src="assets/images/svg/email.svg" alt="">example@gmail.com</a></li>
+                <li><a href=""><img src="assets/images/svg/map.svg" alt="">Howard Street, 13125 USA</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flowto-footer-bottom light">
+        <div class="flowto-footer-menu m-0 menu-inline order-lg-2 light">
+          <ul>
+            <li><a href="">Privacy policy</a></li>
+            <li><a href="">Terms & Conditions</a></li>
+          </ul>
+        </div>
+        <div class="flowto-copywright light">
+          <p> &copy;Copyright 2024, All Rights Reserved by Mthemeus</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- scripts -->
+  <script src="assets/js/jquery-3.6.0.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/menu/menu.js"></script>
+  <script src="assets/js/isotope.pkgd.min.js"></script>
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="assets/js/slick.js"></script>
+  <script src="assets/js/countdown.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/faq.js"></script>
+  <!-- <script src="assets/js/advanced-cursor.js"></script> -->
+  <!-- <script src="assets/js/dark.js"></script> -->
+
+  <script src="assets/js/app.js"></script>
+
+
+</body>
+</html>

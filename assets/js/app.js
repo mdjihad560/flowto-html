@@ -5,18 +5,20 @@
 
   /*------------------------------------------------------------------
   [Table of contents]
-  flowto PRELOADER JS INIT
-  flowto STICKY MENU JS INIT
-  flowto COUNTER JS INIT
-  flowto BRAND SLIDER ONE
-  flowto BRAND SLIDER TWO
-  flowto BRAND SLIDER THREE
-  flowto TESTIMONIAL SLIDER
-  flowto MAGNIFIC POPUP JS INIT
-  flowto PRICING TABLE JS INIT
-  flowto WOW JS INIT
-  flowto PORTFOLIO TWO COLUMN JS 
-  flowto PORTFOLIO ONE COLUMN JS 
+  FLOWTO PRELOADER JS INIT
+  FLOWTO STICKY MENU JS INIT
+  FLOWTO COUNTER JS INIT
+  FLOWTO BRAND SLIDER ONE
+  FLOWTO BRAND SLIDER TWO
+  FLOWTO TESTIMONIAL SLIDER ONE
+  FLOWTO TESTIMONIAL SLIDER TWO
+  FLOWTO TESTIMONIAL SLIDER THREE
+  FLOWTO TESTIMONIAL SLIDER FOUR
+  FLOWTO MAGNIFIC POPUP JS INIT
+  FLOWTO PRICING TABLE JS INIT
+  FLOWTO WOW JS INIT
+  FLOWTO PORTFOLIO TWO COLUMN JS 
+  FLOWTO PORTFOLIO ONE COLUMN JS 
   
   -------------------------------------------------------------------*/
 
@@ -28,52 +30,14 @@
     return this.length;
   };
   $(function () {
-    var selector = '.active-bg';
-    $(selector).on('click', function () {
-      $(selector).removeClass('active');
-      $(this).addClass('active');
-    });
-
     /*--------------------------------------------------------------
-    flowto RTL JS INIT
-    --------------------------------------------------------------*/
-    // const bodyEl = document.querySelector('body')
-    // const btnEl = document.querySelector('#flowto-ltr-rtl')
-    // btnEl.addEventListener('click', () => {
-    //   const dir = (bodyEl.getAttribute('dir') === 'rtl') ? 'ltr' : 'rtl'
-    //   bodyEl.setAttribute('dir', dir)
-    // }, false)
-
-    /*--------------------------------------------------------------
-    flowto MENU SIDEBAR JS INIT
-    --------------------------------------------------------------*/
-    $(".flowto-rtl-open").on("click", function (e) {
-      $(".flowto-sidemenu-column, .offcanvas-overlay").addClass("active");
-      event.preventDefault(e);
-    });
-    $(".flowto-sidemenu-close, .offcanvas-overlay").on("click", function () {
-      $(".flowto-sidemenu-column, .offcanvas-overlay").removeClass("active");
-    });
-
-    /*--------------------------------------------------------------
-    flowto MENU SIDEBAR JS INIT
-    --------------------------------------------------------------*/
-    $(".add").on("click", function (e) {
-      $(".cursor, .cursor2").addClass("active");
-      event.preventDefault(e);
-    });
-    $(".remove").on("click", function () {
-      $(".cursor, .cursor2").removeClass("active");
-    });
-
-    /*--------------------------------------------------------------
-    flowto PRELOADER JS INIT
+    FLOWTO PRELOADER JS INIT
     --------------------------------------------------------------*/
 
     $(".flowto-preloader-wrap").fadeOut(500);
 
     /*--------------------------------------------------------------
-    flowto STICKY MENU JS INIT
+    FLOWTO STICKY MENU JS INIT
     --------------------------------------------------------------*/
     $(window).on('scroll', function () {
       if ($(window).scrollTop() > 50) {
@@ -84,7 +48,7 @@
     });
 
     /*--------------------------------------------------------------
-    flowto COUNTER JS INIT
+    FLOWTO COUNTER JS INIT
     --------------------------------------------------------------*/
     var flowto_counter = $('#flowto-counter');
     if (flowto_counter.is_exist()) {
@@ -116,7 +80,7 @@
     }
 
     /*--------------------------------------------------------------
-    flowto BRAND SLIDER ONE
+    FLOWTO BRAND SLIDER ONE
     --------------------------------------------------------------*/
     var flowto_brand_slider1 = $('.flowto-brand-slider1');
     if (flowto_brand_slider1.is_exist()) {
@@ -147,43 +111,11 @@
     }
 
     /*--------------------------------------------------------------
-    flowto BRAND SLIDER TWO
+    FLOWTO BRAND SLIDER TWO
     --------------------------------------------------------------*/
-    var flowto_brand_slider = $('.flowto-brand-slider2');
-    if (flowto_brand_slider.is_exist()) {
-      flowto_brand_slider.slick({
-        rtl: true,
-        infinite: true,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        arrows: false,
-        dots: false,
-        autoplay: true,
-        autoplaySpeed: 0,
-        speed: 10000,
-        cssEase: 'linear',
-        pauseOnHover: true,
-        adaptiveHeight: true,
-        responsive: [{
-          breakpoint: 991,
-          settings: {
-            slidesToShow: 3
-          }
-        }, {
-          breakpoint: 767,
-          settings: {
-            slidesToShow: 2
-          }
-        }]
-      });
-    }
-
-    /*--------------------------------------------------------------
-    flowto BRAND SLIDER THREE
-    --------------------------------------------------------------*/
-    var flowto_brand_slider3 = $('.flowto-brand-slider3');
-    if (flowto_brand_slider3.is_exist()) {
-      flowto_brand_slider3.slick({
+    var flowto_brand_slider2 = $('.flowto-brand-slider2');
+    if (flowto_brand_slider2.is_exist()) {
+      flowto_brand_slider2.slick({
         infinite: true,
         slidesToShow: 5,
         slidesToScroll: 1,
@@ -210,22 +142,93 @@
     }
 
     /*--------------------------------------------------------------
-    flowto TESTIMONIAL SLIDER
+    FLOWTO TESTIMONIAL SLIDER
     --------------------------------------------------------------*/
+
     var flowto_t_slider = $('.flowto-testimonial-slider');
     if (flowto_t_slider.is_exist()) {
       flowto_t_slider.slick({
         infinite: true,
-        slidesToShow: 1,
+        slidesToShow: 4,
         slidesToScroll: 1,
         arrows: false,
         dots: false,
+        autoplay: true,
+        autoplaySpeed: 0,
+        speed: 10000,
+        cssEase: 'linear',
+        pauseOnHover: true,
+        adaptiveHeight: true,
+        responsive: [{
+          breakpoint: 1349,
+          settings: {
+            slidesToShow: 3
+          }
+        }, {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 2
+          }
+        }, {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 1
+          }
+        }]
+      });
+    }
+
+    /*--------------------------------------------------------------
+    FLOWTO TESTIMONIAL SLIDER TWO
+    --------------------------------------------------------------*/
+    var flowto_t_slider2 = $('.flowto-testimonial-slider2');
+    if (flowto_t_slider2.is_exist()) {
+      flowto_t_slider2.slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: true,
         autoplay: false
       });
     }
 
     /*--------------------------------------------------------------
-    flowto MAGNIFIC POPUP JS INIT
+    FLOWTO TESTIMONIAL SLIDER THREE
+    --------------------------------------------------------------*/
+    var flowto_t_slider3 = $('.flowto-testimonial-slider3');
+    if (flowto_t_slider3.is_exist()) {
+      flowto_t_slider3.slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: true,
+        dots: false,
+        autoplay: false,
+        prevArrow: '<button class="slide-arrow flowto-t-next"></button>',
+        nextArrow: '<button class="slide-arrow flowto-t-prev"></button>'
+      });
+    }
+
+    /*--------------------------------------------------------------
+    FLOWTO TESTIMONIAL SLIDER FOUR
+    --------------------------------------------------------------*/
+    var flowto_t_slider4 = $('.flowto-testimonial-slider4');
+    if (flowto_t_slider4.is_exist()) {
+      flowto_t_slider4.slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: true,
+        dots: false,
+        autoplay: false,
+        prevArrow: '<button class="slide-arrow flowto-t-next2"></button>',
+        nextArrow: '<button class="slide-arrow flowto-t-prev2"></button>'
+      });
+    }
+
+    /*--------------------------------------------------------------
+    FLOWTO MAGNIFIC POPUP JS INIT
     ------------------------------------------------------------*/
     var popup_youtube = $('.video-init');
     if (popup_youtube.is_exist()) {
@@ -236,7 +239,7 @@
     }
 
     /*--------------------------------------------------------------
-    flowto PRICING TABLE JS INIT
+    FLOWTO PRICING TABLE JS INIT
     ------------------------------------------------------------*/
     // Table BTN Trigger
     $("#l5-pricing-btn .toggle-btn").on("click", function (e) {
@@ -263,7 +266,7 @@
   $(window).on("resize", function () {}); // end window resize
 
   /*--------------------------------------------------------------
-  flowto WOW JS INIT
+  FLOWTO WOW JS INIT
   ------------------------------------------------------------*/
 
   $(window).on("load", function () {
@@ -275,7 +278,7 @@
     wow.init();
 
     /*--------------------------------------------------------------
-    flowto PORTFOLIO TWO COLUMN JS 
+    FLOWTO PORTFOLIO TWO COLUMN JS 
     ------------------------------------------------------------*/
     var flowto_portfolio_two_column = $('#flowto-two-column');
     if (flowto_portfolio_two_column.is_exist()) {
@@ -349,7 +352,7 @@
     }
 
     /*--------------------------------------------------------------
-    flowto PORTFOLIO ONE COLUMN JS 
+    FLOWTO PORTFOLIO ONE COLUMN JS 
     ------------------------------------------------------------*/
     var flowto_portfolio_one_column = $('#flowto-one-column');
     if (flowto_portfolio_one_column.is_exist()) {

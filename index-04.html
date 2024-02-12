@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flowto || Responsive HTML 5 Template</title>
+
+  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <!--- End favicon-->
+
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- End google font  -->
+
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/magnific-popup.css">
+  <link rel="stylesheet" href="assets/css/slick.css">
+  <link rel="stylesheet" href="assets/css/animate.css">
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
+
+
+  <!-- Code Editor  -->
+
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/app.min.css">
+</head>
+
+<body id="body" class="light-mode">
+
+  <div class="flowto-preloader-wrap">
+    <div class="flowto-preloader">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+
+
+
+  <!-- <div class="flowto-sidemenu-wraper">
+      <div class="flowto-sidemenu-column">
+        <div class="flowto-sidemenu-item">
+          <p>languages support</p>
+          <button class="value-change-btn" id="flowto-ltr-rtl" type="button"><span>ltl</span><span>rtl</span></button>
+          <div class="flowto-open-close-btn">
+            <div class="flowto-rtl-open">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13.3473 3.83574C14.0225 1.05475 17.9775 1.05475 18.6527 3.83574C19.0888 5.63222 21.147 6.48476 22.7257 5.52285C25.1696 4.03378 27.9662 6.83045 26.4772 9.27429C25.5152 10.853 26.3678 12.9112 28.1643 13.3473C30.9452 14.0225 30.9452 17.9775 28.1643 18.6527C26.3678 19.0888 25.5152 21.147 26.4772 22.7257C27.9662 25.1696 25.1696 27.9662 22.7257 26.4772C21.147 25.5152 19.0888 26.3678 18.6527 28.1643C17.9775 30.9452 14.0225 30.9452 13.3473 28.1643C12.9112 26.3678 10.853 25.5152 9.2743 26.4772C6.83045 27.9662 4.03379 25.1696 5.52285 22.7257C6.48476 21.147 5.63222 19.0888 3.83574 18.6527C1.05475 17.9775 1.05475 14.0225 3.83574 13.3473C5.63222 12.9112 6.48476 10.853 5.52285 9.27429C4.03378 6.83045 6.83045 4.03378 9.27429 5.52284C10.853 6.48476 12.9112 5.63222 13.3473 3.83574Z" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M20.75 16C20.75 18.6234 18.6234 20.75 16 20.75C13.3766 20.75 11.25 18.6234 11.25 16C11.25 13.3766 13.3766 11.25 16 11.25C18.6234 11.25 20.75 13.3766 20.75 16Z" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <span class="flowto-sidemenu-close">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M6 18L18 6M6 6L18 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+            </span>
+          </div>
+        </div>
+
+        <div class="flowto-sidemenu-item">
+          <p>cursor</p>
+          <div class="flowto-cursor-btn">
+            <button class="value-change-btn remove active-bg" type="button"><span>Normal</span></button>
+            <button class="value-change-btn add active-bg" type="button"><span>advanced</span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cursor"></div>
+    <div class="cursor2"></div> -->
+
+
+
+
+
+  <header class="site-header site-header--menu-right flowto-header-section" id="sticky-menu">
+    <div class="container">
+      <nav class="navbar site-navbar">
+        <!-- Brand Logo-->
+        <div class="brand-logo">
+          <a href="index.html">
+            <img class="flowto-mobile-hide" src="assets/images/logo/logo-white.svg" alt="">
+            <img class="flowto-sticky-logo" src="assets/images/logo/logo-dark.svg" alt="">
+          </a>
+        </div>
+        <div class="menu-block-wrapper">
+          <div class="menu-overlay"></div>
+          <nav class="menu-block" id="append-menu-header">
+            <div class="mobile-menu-head">
+              <div class="go-back">
+                <i class="fa fa-angle-left"></i>
+              </div>
+              <div class="current-menu-title"></div>
+              <div class="mobile-menu-close">&times;</div>
+            </div>
+            <ul class="site-menu-main">
+              <li class="nav-item nav-item-has-children">
+                <a href="#" class="nav-link-item drop-trigger">Demo <i class="fas fa-angle-down"></i></a>
+                <ul class="sub-menu" id="submenu-1">
+                  <li class="sub-menu--item">
+                    <a href="index.html">
+                      <span class="menu-item-text">Mobile banking</span>
+                    </a>
+                  </li>
+                  <li class="sub-menu--item">
+                    <a href="index-02.html">
+                      <span class="menu-item-text">Sale management software</span>
+                    </a>
+                  </li>
+                  <li class="sub-menu--item">
+                    <a href="index-03.html">
+                      <span class="menu-item-text">Digital Agency</span>
+                    </a>
+                  </li>
+                  <li class="sub-menu--item">
+                    <a href="index-04.html">
+                      <span class="menu-item-text">Time Management</span>
+                    </a>
+                  </li>
+                  <li class="sub-menu--item">
+                    <a href="index-05.html">
+                      <span class="menu-item-text">SEO Agency</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="about-us.html" class="nav-link-item">About Us</a>
+              </li>
+              <li class="nav-item nav-item-has-children">
+                <a href="#" class="nav-link-item drop-trigger">Pages <i class="fas fa-angle-down"></i></a>
+                <ul class="sub-menu" id="submenu-2">
+                  <li class="sub-menu--item">
+                    <a href="about-us.html">
+                      <span class="menu-item-text">About Us</span>
+                    </a>
+                  </li>
+                  <li class="sub-menu--item">
+                    <a href="pricing.html">
+                      <span class="menu-item-text">Pricing</span>
+                    </a>
+                  </li>
+                  <li class="sub-menu--item nav-item-has-children">
+                    <a href="#" data-menu-get="h3" class="drop-trigger">blog <i class="fas fa-angle-down"></i></a>
+                    <ul class="sub-menu shape-none" id="submenu-3">
+                      <li class="sub-menu--item">
+                        <a href="blog.html">
+                          <span class="menu-item-text">Our Blog</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="single-blog.html">
+                          <span class="menu-item-text">blog details</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sub-menu--item nav-item-has-children">
+                    <a href="#" data-menu-get="h3" class="drop-trigger">Service<i class="fas fa-angle-down"></i>
+                    </a>
+                    <ul class="sub-menu shape-none" id="submenu-4">
+                      <li class="sub-menu--item">
+                        <a href="service.html">
+                          <span class="menu-item-text">service</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="single-service.html">
+                          <span class="menu-item-text">service details</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sub-menu--item nav-item-has-children">
+                    <a href="#" data-menu-get="h3" class="drop-trigger">Team<i class="fas fa-angle-down"></i>
+                    </a>
+                    <ul class="sub-menu shape-none" id="submenu-5">
+                      <li class="sub-menu--item">
+                        <a href="team.html">
+                          <span class="menu-item-text">team</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="single-team.html">
+                          <span class="menu-item-text">team details</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sub-menu--item nav-item-has-children">
+                    <a href="#" data-menu-get="h3" class="drop-trigger">Career<i class="fas fa-angle-down"></i>
+                    </a>
+                    <ul class="sub-menu shape-none" id="submenu-6">
+                      <li class="sub-menu--item">
+                        <a href="career.html">
+                          <span class="menu-item-text">Career</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="single-career.html">
+                          <span class="menu-item-text">Career details</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sub-menu--item nav-item-has-children">
+                    <a href="#" data-menu-get="h3" class="drop-trigger">Portfolio<i class="fas fa-angle-down"></i>
+                    </a>
+                    <ul class="sub-menu shape-none" id="submenu-7">
+                      <li class="sub-menu--item">
+                        <a href="portfolio-grid.html">
+                          <span class="menu-item-text">portfolio gird</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="portfolio-classic.html">
+                          <span class="menu-item-text">portfolio classic</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="single-portfolio.html">
+                          <span class="menu-item-text">Single Portfolio</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sub-menu--item nav-item-has-children">
+                    <a href="#" data-menu-get="h3" class="drop-trigger">Utility<i class="fas fa-angle-down"></i>
+                    </a>
+                    <ul class="sub-menu shape-none" id="submenu-8">
+                      <li class="sub-menu--item">
+                        <a href="faq.html">
+                          <span class="menu-item-text">faq</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="errors-404.html">
+                          <span class="menu-item-text">Error 404</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="integrations.html">
+                          <span class="menu-item-text">integrations</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="testimonials.html">
+                          <span class="menu-item-text">testimonials</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="coming-soon.html">
+                          <span class="menu-item-text">Coming Soon</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sub-menu--item nav-item-has-children">
+                    <a href="#" data-menu-get="h3" class="drop-trigger">Account<i class="fas fa-angle-down"></i>
+                    </a>
+                    <ul class="sub-menu shape-none" id="submenu-9">
+                      <li class="sub-menu--item">
+                        <a href="sign-up.html">
+                          <span class="menu-item-text">sign up</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="sign-in.html">
+                          <span class="menu-item-text">sign in</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="reset-password.html">
+                          <span class="menu-item-text">reset password</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item nav-item-has-children">
+                <a href="#" class="nav-link-item drop-trigger">Blog <i class="fas fa-angle-down"></i></a>
+                <ul class="sub-menu" id="submenu-10">
+                  <li class="sub-menu--item">
+                    <a href="blog.html">
+                      <span class="menu-item-text">Our Blog</span>
+                    </a>
+                  </li>
+                  <li class="sub-menu--item">
+                    <a href="single-blog.html">
+                      <span class="menu-item-text">blog details</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="contact-us.html" class="nav-link-item">Contact Us</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="header-btn header-btn-l1 ms-auto d-none d-xs-inline-flex">
+          <div class="flowto-header-btn-wrap">
+            <a class="flowto-login-btn" href="sign-up.html">Login</a>
+            <a class="flowto-default-btn flowto-header-btn" href="contact-us.html">
+              <span>Get Started</span>
+            </a>
+          </div>
+
+        </div>
+        <!-- mobile menu trigger -->
+        <div class="mobile-menu-trigger light">
+          <span></span>
+        </div>
+        <!--/.Mobile Menu Hamburger Ends-->
+      </nav>
+    </div>
+  </header>
+  <!--End landex-header-section -->
+
+  <div class="flowto-hero-section4">
+    <div id="flowto-counter"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7 offset-lg-1 order-lg-2 d-flex align-items-center">
+          <div class="flowto-hero-content-wrap">
+            <div class="flowto-hero-content">
+              <h1>Manage time effortlessly</h1>
+              <p>Time management software to boost performance & get paid for every billable minute. An intuitive tool that makes time management painless for the entire team and increases your productivity.</p>
+            </div>
+            <div class="flowto-extra-mt">
+              <div class="flowto-counter-wrap samll-max-width2">
+                <div class="flowto-counter-data flowto-counter-data2">
+                  <h3 class="flowto-counter-number"><span data-percentage="25" class="flowto-counter"></span>M</h3>
+                  <p>Users Worldwide</p>
+                </div>
+                <div class="flowto-counter-data flowto-counter-data2">
+                  <h3 class="flowto-counter-number"><span data-percentage="4.8" class="flowto-counter"></span>/5</h3>
+                  <p>Download Rating</p>
+                </div>
+              </div>
+            </div>
+            <div class="flowto-extra-mt">
+              <div class="flowto-two-wrap">
+                <a class="flowto-app" href="contact-us.html"><img src="assets/images/v1/play-store.png" alt=""></a>
+                <a class="flowto-app" href="contact-us.html"><img src="assets/images/v1/app-store.png" alt=""></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-lg-3 offset-lg-1">
+          <div class="flowto-hero-thumb2">
+            <img src="assets/images/v4/hero-mobile.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End section -->
+
+  <div class="section flowto-section-padding3 light-bg">
+    <div class="flowto-section-title center">
+      <h2 class="m-0">Features that boost your productivity</h2>
+    </div>
+    <div class="container">
+      <div class="flowto-iconbox-column">
+        <div class="flowto-iconbox-wrap">
+          <div class="flowto-iconbox-icon">
+            <img src="assets/images/v4/icon-v4-1.svg" alt="">
+          </div>
+          <div class="flowto-iconbox-data">
+            <h5>Fully Customizable</h5>
+            <p>An easy, user-friendly time management apps for desktop, web, mobile, & chrome</p>
+            <a class="flowto-iconbox-btn" href="single-service.html">
+              View More
+              <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.6667 0.970215L16.5 6.80355M16.5 6.80355L10.6667 12.6369M16.5 6.80355L1.5 6.80355" stroke="#414141" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="flowto-iconbox-wrap">
+          <div class="flowto-iconbox-icon">
+            <img src="assets/images/v4/icon-v4-2.svg" alt="">
+          </div>
+          <div class="flowto-iconbox-data">
+            <h5>Team Management</h5>
+            <p>Know who is present at work and track absences and reasons behind your team</p>
+            <a class="flowto-iconbox-btn" href="single-service.html">
+              View More
+              <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.6667 0.970215L16.5 6.80355M16.5 6.80355L10.6667 12.6369M16.5 6.80355L1.5 6.80355" stroke="#414141" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="flowto-iconbox-wrap">
+          <div class="flowto-iconbox-icon">
+            <img src="assets/images/v4/icon-v4-3.svg" alt="">
+          </div>
+          <div class="flowto-iconbox-data">
+            <h5>Reports & Analysis</h5>
+            <p>See how much time has been spent on projects & tasks, easy to create reports</p>
+            <a class="flowto-iconbox-btn" href="single-service.html">
+              View More
+              <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.6667 0.970215L16.5 6.80355M16.5 6.80355L10.6667 12.6369M16.5 6.80355L1.5 6.80355" stroke="#414141" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End section -->
+
+  <div class="section flowto-section-padding2">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 offset-lg-1 order-lg-2">
+          <div class="flowto-thumb">
+            <img src="assets/images/v4/mocup1.png" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 d-flex align-items-center">
+          <div class="flowto-default-content-wrap">
+            <div class="flowto-default-content">
+              <h2>Specify the time for each task</h2>
+              <p>Organize your time with tasks & assign them to your team. Track project profitability with hourly rates, budgets, or estimates.</p>
+            </div>
+            <div class="flowto-divider defarent-color divider-margin"></div>
+            <div class="flowto-iconlist iconlist-grid">
+              <ul>
+                <li><img src="assets/images/svg/check-blue.svg" alt="">Project management</li>
+                <li><img src="assets/images/svg/check-blue.svg" alt="">Flexible time off policy</li>
+                <li><img src="assets/images/svg/check-blue.svg" alt="">Time off calendar</li>
+                <li><img src="assets/images/svg/check-blue.svg" alt="">Detailed all reports</li>
+                <li><img src="assets/images/svg/check-blue.svg" alt="">Team management</li>
+                <li><img src="assets/images/svg/check-blue.svg" alt="">Billing and invoicing</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End section -->
+
+  <div class="section">
+    <div class="container">
+      <div class="flowto-section-title center w-large">
+        <h2>Improve attendance with time-off tracking</h2>
+        <p>Online & offline it allows you to see how your or your team’s time is spent. Smart alerts and notifications will keep you tuned in to ensure you record every minute.</p>
+      </div>
+      <div class="flowto-video-wrap border-radius30 m-0">
+        <img src="assets/images/v4/dashboard-thumb.png" alt="">
+        <a class="video-init flowto-video-icon" href="https://www.youtube.com/watch?v=SixdAQtWJQ8">
+          <img src="assets/images/v1/play-btn.svg" alt="">
+          <div class="waves wave-1"></div>
+          <div class="waves wave-2"></div>
+          <div class="waves wave-3"></div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- End section -->
+
+  <div class="section flowto-section-padding2">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5">
+          <div class="flowto-thumb">
+            <img src="assets/images/v4/mocup2.png" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 offset-lg-1 d-flex align-items-center">
+          <div class="flowto-default-content-wrap">
+            <div class="flowto-default-content">
+              <h2>Control working hours effectively</h2>
+              <p>Visually time to plan, track, and deliver work projects without last-minute rush and stress. With the delightfully simple drag-and-drop timeline, you can:</p>
+            </div>
+            <div class="flowto-extra-mt">
+              <div class="flowto-feature-item">
+                <div class="flowto-feature-icon">
+                  <img src="assets/images/v4/clock.svg" alt="">
+                </div>
+                <div class="flowto-feature-data">
+                  <h6>Effective work schedules</h6>
+                  <p>Create effective work schedules without clunky spreadsheets or complex software. Visually plan, track, and deliver work projects</p>
+                </div>
+              </div>
+              <div class="flowto-feature-item">
+                <div class="flowto-feature-icon">
+                  <img src="assets/images/v4/eye.svg" alt="">
+                </div>
+                <div class="flowto-feature-data">
+                  <h6>Visualize your day</h6>
+                  <p>Visualize your day as you’re going through it using the timeline. See exactly how much time you’ve manage in total, what you’ve</p>
+                </div>
+              </div>
+              <div class="flowto-feature-item">
+                <div class="flowto-feature-icon">
+                  <img src="assets/images/v4/document-text.svg" alt="">
+                </div>
+                <div class="flowto-feature-data">
+                  <h6>Organize entries & notes</h6>
+                  <p>Organize your timers and entries with the power of tags + notes. Tag your timers & use notes to keep track of what you’re working</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End section -->
+
+  <div class="section blue-bg flowto-section-padding3">
+    <div class="container">
+      <div class="flowto-section-title center light">
+        <h2>Start managing your time in 3 easy steps</h2>
+        <p>It is an intuitive, lightweight solution for managing hours and projects that is easy to adopt and use every day, we've designed it to be super fast.</p>
+      </div>
+      <div class="row position-relative">
+        <div class="col-lg-4 col-md-6">
+          <div class="flowto-numberbox-wrap">
+            <div class="flowto-numberbox-number">
+              <h4>1</h4>
+            </div>
+            <div class="flowto-numberbox-data">
+              <h5>Download for free</h5>
+              <p>Easily download free app for iOS, Android, macOS, Windows, or Linux on any device anytime just-one-click.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="flowto-numberbox-wrap">
+            <div class="flowto-numberbox-number">
+              <h4>2</h4>
+            </div>
+            <div class="flowto-numberbox-data">
+              <h5>Create your account</h5>
+              <p>Create your account in minutes with the necessary information to ensure the safe and security of your information.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
+          <div class="flowto-numberbox-wrap">
+            <div class="flowto-numberbox-number">
+              <h4>3</h4>
+            </div>
+            <div class="flowto-numberbox-data">
+              <h5>Start managing time</h5>
+              <p>Time management manually using a timer or automatically for scheduled tasks and to-do lists & also track hours.</p>
+            </div>
+          </div>
+        </div>
+        <div class="flowto-numberbox-shape shape1">
+          <img src="assets/images/v4/line1.png" alt="">
+        </div>
+        <div class="flowto-numberbox-shape shape2">
+          <img src="assets/images/v4/line2.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End section -->
+
+  <div class="section flowto-section-padding3">
+    <div class="container">
+      <div class="flowto-section-title">
+        <div class="row">
+          <div class="col-lg-7">
+            <h2>Millions of users drop their reviews</h2>
+          </div>
+          <div class="col-lg-5 d-flex align-items-center">
+            <div class="flowto-title-btn">
+              <a class="flowto-icon-btn" href="testimonials.html">
+                <span>
+                Read all the reviews on Trustpilot.com           
+              </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-4 col-lg-6">
+          <div class="flowto-testimonial-wrap testimonial-border">
+            <div class="flowto-testimonial-rating">
+              <img src="assets/images/v4/rating.png" alt="">
+            </div>
+            <div class="flowto-testimonial-data">
+              <p>I have been using My Hours for years now, and I've always been attracted by the simplicity and the ease of input. It helped me track my time most readily versus other apps that have cumbersome interfaces. this app does it perfectly!</p>
+            </div>
+            <div class="flowto-testimonial-author">
+              <div class="flowto-testimonial-author-data">
+                <span>Karen Lynn</span>
+                <p>Founder @ Company</p>
+              </div>
+            </div>
+          </div>
+          <div class="flowto-testimonial-wrap testimonial-border">
+            <div class="flowto-testimonial-rating">
+              <img src="assets/images/v4/rating.png" alt="">
+            </div>
+            <div class="flowto-testimonial-data">
+              <p>"I love that I can manage time & use it to generate meaningful reports to measure time spent."</p>
+            </div>
+            <div class="flowto-testimonial-author">
+              <div class="flowto-testimonial-author-data">
+                <span>Michelle</span>
+                <p>Virtual Assistant</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-6">
+          <div class="flowto-testimonial-wrap testimonial-border">
+            <div class="flowto-testimonial-rating">
+              <img src="assets/images/v4/rating.png" alt="">
+            </div>
+            <div class="flowto-testimonial-data">
+              <p>"I've enjoyed using My Hours, and I use it every day. Great tool for managing my time!"</p>
+            </div>
+            <div class="flowto-testimonial-author">
+              <div class="flowto-testimonial-author-data">
+                <span>Thomas</span>
+                <p>Marketing Manager</p>
+              </div>
+            </div>
+          </div>
+          <div class="flowto-testimonial-wrap testimonial-border">
+            <div class="flowto-testimonial-rating">
+              <img src="assets/images/v4/rating.png" alt="">
+            </div>
+            <div class="flowto-testimonial-data">
+              <p>"I really love this time management app. It keeps track of all my hours & really easy to use. I would definitely recommend this app. It's simple, made by people who understand & Reports are good looking and easy to export. Best value for money!”</p>
+            </div>
+            <div class="flowto-testimonial-author">
+              <div class="flowto-testimonial-author-data">
+                <span>Alexa Bury</span>
+                <p>Student</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-12">
+          <div class="row">
+            <div class="col-xl-12 col-lg-6">
+              <div class="flowto-testimonial-wrap testimonial-border">
+                <div class="flowto-testimonial-rating">
+                  <img src="assets/images/v4/rating.png" alt="">
+                </div>
+                <div class="flowto-testimonial-data">
+                  <p>"Ease of use, simplicity, streamlined, it really helped me get my hour tracking in order. No negatives for the purpose and scope for which I am using the app."</p>
+                </div>
+                <div class="flowto-testimonial-author">
+                  <div class="flowto-testimonial-author-data">
+                    <span>Ellimas Soi</span>
+                    <p>Businessman</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-12 col-lg-6">
+              <div class="flowto-testimonial-wrap testimonial-border">
+                <div class="flowto-testimonial-rating">
+                  <img src="assets/images/v4/rating.png" alt="">
+                </div>
+                <div class="flowto-testimonial-data">
+                  <p>"My Hours is great for managing of time spent on different projects. It makes completing my mandatory timesheets at the end of the week WAY FASTER."</p>
+                </div>
+                <div class="flowto-testimonial-author">
+                  <div class="flowto-testimonial-author-data">
+                    <span>Paul Haq</span>
+                    <p>Engineer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End section -->
+
+  <div class="section dark-bg flowto-section-padding">
+    <div class="container">
+      <div class="flowto-section-title light center p-0">
+        <h2>Start managing your time smartly now!</h2>
+        <p>Remember, you can't improve anythings if you don't manage your precious times! If you are tired of constantly guessing, start our app now.</p>
+        <div class="flowto-extra-mt">
+          <a class="flowto-default-btn hover-white" href="contact-us.html"><span>Get Started - It's Free</span></a>
+        </div>
+        <div class="flowto-extra-mt">
+          <div class="flowto-iconlist iconlist-white">
+            <ul>
+              <li><img src="assets/images/svg/check-green3.svg" alt="">24/7 Support</li>
+              <li><img src="assets/images/svg/check-green3.svg" alt="">Cancel Anytime</li>
+              <li><img src="assets/images/svg/check-green3.svg" alt="">Free Forever</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="flowto-footer-section main-footer white-bg">
+    <div class="container">
+      <div class="flowto-footer-top">
+        <div class="row">
+          <div class="col-lg-3 col-md-2">
+            <div class="flowto-footer-menu">
+              <div class="flowto-footer-title">
+                <p>Company</p>
+              </div>
+              <ul>
+                <li><a href="">Demos</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Pages</a></li>
+                <li><a href="">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3">
+            <div class="flowto-footer-menu">
+              <div class="flowto-footer-title">
+                <p>Utility pages</p>
+              </div>
+              <ul>
+                <li><a href="">Instructions</a></li>
+                <li><a href="">Style guide</a></li>
+                <li><a href="">Licenses</a></li>
+                <li><a href="">404 Not found</a></li>
+                <li><a href="">Password protected</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3">
+            <div class="flowto-footer-menu">
+              <div class="flowto-footer-title">
+                <p>Navigation</p>
+              </div>
+              <ul>
+                <li><a href="">QuickBooks</a></li>
+                <li><a href="">Zapier</a></li>
+                <li><a href="">API Documentation</a></li>
+                <li><a href="">Slack</a></li>
+                <li><a href="">Google Calendar</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="flowto-footer-menu">
+              <div class="flowto-footer-title">
+                <p>Resources</p>
+              </div>
+              <ul>
+                <li><a href="">Support</a></li>
+                <li><a href="">Privacy policy</a></li>
+                <li><a href="">Terms & Conditions</a></li>
+                <li><a href="">Strategic finance</a></li>
+                <li><a href="">Video guide</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flowto-footer-bottom">
+        <a href="">
+          <img src="assets/images/logo/logo-dark.svg" alt="">
+        </a>
+        <div class="flowto-copywright">
+          <p> &copy;Copyright 2024, All Rights Reserved by Mthemeus</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- scripts -->
+  <script src="assets/js/jquery-3.6.0.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/menu/menu.js"></script>
+  <script src="assets/js/isotope.pkgd.min.js"></script>
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="assets/js/slick.js"></script>
+  <script src="assets/js/countdown.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/faq.js"></script>
+  <!-- <script src="assets/js/advanced-cursor.js"></script> -->
+  <!-- <script src="assets/js/dark.js"></script> -->
+
+  <script src="assets/js/app.js"></script>
+
+
+</body>
+</html>
